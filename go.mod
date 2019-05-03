@@ -1,13 +1,13 @@
-module github.com/roasbeef/lseed
+module github.com/mraksoll4/lseed
 
 require (
 	github.com/Sirupsen/logrus v1.0.5
-	github.com/btcsuite/btcd v0.0.0-20190315201642-aa6e0f35703c
-	github.com/btcsuite/btcutil v0.0.0-20190316010144-3ac1210f4b38
+	github.com/mraksoll4/btcd v1.0.0
+	github.com/mraksoll4/btcutil v1.0.0
 	github.com/davecgh/go-spew v1.1.1
 	github.com/juju/clock v0.0.0-20190205081909-9c5c9712527c // indirect
 	github.com/juju/errors v0.0.0-20190207033735-e65537c515d7 // indirect
-	github.com/lightningnetwork/lnd v0.5.1-beta.0.20190327035438-d73645459956
+	github.com/mraksoll4/lnd v1.0.0
 	github.com/miekg/dns v1.0.7
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
