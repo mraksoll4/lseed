@@ -133,7 +133,6 @@ func (ds *DnsServer) handleAQuery(request *dns.Msg, response *dns.Msg,
 
 	chainView, ok := ds.chainViews[subDomain]
 	if !ok {
-		log.Errorf("no chain view found for %v", subDomain)
 		return
 	}
 

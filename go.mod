@@ -1,4 +1,4 @@
-module github.com/roasbeef/lseed
+module github.com/mraksoll4/lseed
 
 require (
 	github.com/Sirupsen/logrus v1.0.5
